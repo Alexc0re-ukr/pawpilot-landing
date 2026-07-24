@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PawPilot Care</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>PawPilot</header>
+  <main class="hero">
+    <section>
+      <p>Pet care reminders</p>
+      <h1>Never miss food, walks, or vet dates.</h1>
+      <a href="#" id="offerLink">Open care plan</a>
+    </section>
+    <form id="petForm">
+      <h2>Create pet note</h2>
+      <input name="pet" placeholder="Pet name" required>
+      <select name="kind">
+        <option>Food schedule</option>
+        <option>Walk reminder</option>
+        <option>Vet visit</option>
+      </select>
+      <button>Save note</button>
+      <span id="status"></span>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
